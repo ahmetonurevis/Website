@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eğitimim</title>
+	<link rel="stylesheet" href="menu.css">
+	<style>
+		#header{
+			margin:0 auto;
+		}
+		/* Genel Stiller */
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+
+		body {
+			background: linear-gradient(to right, #000000, #1f1c2c);
+			color: #fff;
+			padding: 50px;
+		}
+
+		h1, h2, h3 {
+			font-weight: bold;
+			color: #fff;
+			text-align: center;
+			margin: 20px 0;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			color: #ccc;
+			margin-bottom: 10px;
+		}
+		
+		ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+			text-decoration: none;
+		}
+
+		.footer{
+          width: 100%;
+            max-width: 100%;
+            padding: 1rem;   
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+            margin-left: auto;
+            margin-right: auto;
+			text-align: center;
+        }
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			max-width: 1200px;
+			margin: 0 auto;
+			
+			align-items: center;
+		}
+
+		
+		.education1 {
+			background-color: #262641;
+			border-radius: 10px;
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			margin: 20px;
+			padding: 30px;
+            height: 300px;
+			width: 300px;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+			
+		}
+		.education2 {
+			background-color: #262641;
+			border-radius: 10px;
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			margin: 20px;
+			padding: 30px;
+            height: 300px;
+			width: 300px;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+			
+		}
+		.education3 {
+			background-color: #262641;
+			border-radius: 10px;
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			margin: 20px;
+			padding: 30px;
+            height: 300px;
+			width: 300px;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+					
+		}
+		.education4 {
+			background-color: #262641;
+			border-radius: 10px;
+			box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+			margin: 20px;
+			padding: 30px;
+            height: 300px;
+			width: 300px;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+			
+		}
+
+		.education1:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
+		}
+
+		.education1 h2 {
+			font-size: 24px;
+			color: #fff;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+
+		.education1 p {
+			font-size: 16px;
+			color: #ccc;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.education1 i {
+			font-size: 48px;
+			color: #fff;
+			margin-bottom: 20px;
+			display: block;
+		}
+		.education2:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
+		}
+
+		.education2 h2 {
+			font-size: 24px;
+			color: #fff;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+
+		.education2 p {
+			font-size: 16px;
+			color: #ccc;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.education2 i {
+			font-size: 48px;
+			color: #fff;
+			margin-bottom: 20px;
+			display: block;
+		}
+		.education3:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
+		}
+
+		.education3 h2 {
+			font-size: 24px;
+			color: #fff;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+
+		.education3 p {
+			font-size: 16px;
+			color: #ccc;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.education3 i {
+			font-size: 48px;
+			color: #fff;
+			margin-bottom: 20px;
+			display: block;
+		}
+		.education4:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 15px 20px rgba(0, 0, 0, 0.15);
+		}
+
+		.education4 h2 {
+			font-size: 24px;
+			color: #fff;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
+
+		.education4 p {
+			font-size: 16px;
+			color: #ccc;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.education4 i {
+			font-size: 48px;
+			color: #fff;
+			margin-bottom: 20px;
+			display: block;
+		}
+	</style>
+	
+</head>
+<body>
+	<input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+  	<label for="menu-icon"></label>
+  	<nav class="nav"> 		
+  		<ul class="pt-5">
+  			  <li><a href="hakkımda.html">Hakkımda</a></li>
+          <li><a href="egitim.html">Eğitim</a></li>
+          <li><a href="deneyim.html">Deneyim</a></li>
+          <li><a href="beceriler.html">Beceriler</a></li>
+          <li><a href="iletişim.html">İletişim</a></li>
+  		</ul>
+  	</nav>
+	<h1>Eğitimim</h1>
+	<div class="container">
+		<div class="education1">
+			<h2>LİSANS EĞİTİMİ</h2>
+			<h3>KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ</h3>
+            <p>EYLÜL 2020-HAZİRAN 2024</p>            
+            <p>BİLGİSAYAR MÜHENDİSLİĞİ</p>
+		</div>
+        <div class="education2">
+			<h2>LİSANS EĞİTİMİ</h2>
+			<h3>ATILIM ÜNİVERSİTESİ</h3>
+            <p>EYLÜL 2016-HAZİRAN 2020</p>           
+            <p>BİLGİSAYAR MÜHENDİSLİĞİ</p>
+		</div>
+		<div class="education3">
+			<h2>LİSE EĞİTİMİ</h2>
+			<h3>NURİ NİHAT ASLANOBA ANADOLU LİSESİ</h3>
+            <p>EYLÜL 2012-HAZİRAN 2015</p>            
+            <p>ANADOLU LİSESİ</p>
+
+		</div>
+		<div class="education4">
+			<h2>LİSE EĞİTİMİ</h2>
+			<h3>KÜLTÜR TEMEL LİSESİ</h3>  
+            <p>EYLÜL 2015-HAZİRAN 2016</p>          
+            <p>TEMEL LİSE</p>           
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+		  <p>Telif Hakkı © 2023 Ahmet Onur Evis. Tüm hakları saklıdır.</p>
+		</div>
+	  </footer>
+</body>
+</html>
